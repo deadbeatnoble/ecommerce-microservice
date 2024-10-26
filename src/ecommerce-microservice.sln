@@ -3,9 +3,26 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0983544D-E664-4904-A835-F2E9FF8E0947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Product.API", "Services\Product.API\Product.API.csproj", "{CFA63065-EB2E-441C-9A32-E8D25C599A07}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFA63065-EB2E-441C-9A32-E8D25C599A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFA63065-EB2E-441C-9A32-E8D25C599A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFA63065-EB2E-441C-9A32-E8D25C599A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFA63065-EB2E-441C-9A32-E8D25C599A07}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFA63065-EB2E-441C-9A32-E8D25C599A07} = {0983544D-E664-4904-A835-F2E9FF8E0947}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67B8874A-A71F-4330-B8F7-644FBC791553}
