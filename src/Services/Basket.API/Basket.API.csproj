@@ -7,8 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="CoreApiResponse" Version="1.0.1" />
-    <PackageReference Include="MongoRepo" Version="1.0.6" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
   </ItemGroup>
 
